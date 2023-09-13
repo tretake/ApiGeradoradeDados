@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ProjetoApi\\ProjetoApi.csproj": {}
+    "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ApiGeradoradeDados\\ProjetoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ProjetoApi\\ProjetoApi.csproj": {
+    "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ApiGeradoradeDados\\ProjetoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ProjetoApi\\ProjetoApi.csproj",
+        "projectUniqueName": "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ApiGeradoradeDados\\ProjetoApi.csproj",
         "projectName": "ProjetoApi",
-        "projectPath": "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ProjetoApi\\ProjetoApi.csproj",
+        "projectPath": "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ApiGeradoradeDados\\ProjetoApi.csproj",
         "packagesPath": "C:\\Users\\ruanl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ProjetoApi\\obj\\",
+        "outputPath": "C:\\Users\\ruanl\\OneDrive\\Desktop\\git\\ApiGeradoradeDados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ruanl\\AppData\\Roaming\\NuGet\\NuGet.Config",

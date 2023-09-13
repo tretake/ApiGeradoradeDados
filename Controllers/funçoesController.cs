@@ -12,11 +12,16 @@ namespace ProjetoApi.Controllers
     public class FunçoesController : ControllerBase
     {
 
-        [HttpGet("NumeroAleatorio/{menorValor}/{maiorValor}")]
-        public IActionResult GerarNumeroAleatorio(int menorValor, int maiorValor)
+        [HttpGet("NumeroAleatorio/{menorValor}/{maiorValor}/{quantidadeValores}")]
+        public IActionResult GerarNumeroAleatorio(int menorValor, int maiorValor, int quantidadeValores = 1)
         {
             Random aleatorio = new Random();
-            int numero = aleatorio.Next(menorValor, maiorValor);
+            int[] numero = new int[quantidadeValores];
+            for (int i = 0; i < quantidadeValores; i++)
+            {
+                numero[i] = aleatorio.Next(menorValor, maiorValor);
+            }
+
             return Ok(new { numero });
         }
     }
